@@ -35,5 +35,5 @@
     "watchify": "^0.10.1"
   },
   "author": "Kevin Pruett",
-  "license": "ISC"
+  "license": "MIT"
 }
