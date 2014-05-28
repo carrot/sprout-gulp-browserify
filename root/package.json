@@ -1,0 +1,39 @@
+{
+  "name": "sprout-gulp-browserify",
+  "version": "0.0.1",
+  "description": "Gulp + Browserify Front End Workflow",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "backbone": "^1.1.2",
+    "backbone.marionette": "^1.8.0",
+    "coffee-script": "1.x.x",
+    "jade": "1.x.x",
+    "jquery": "^2.1.0",
+    "stylus": "0.42.x",
+    "underscore": "^1.6.0",
+    "when": "^3.1.0"
+  },
+  "browserify": {
+    "transform": [
+      "coffeeify"
+    ]
+  },
+  "devDependencies": {
+    "browserify": "^4.1.5",
+    "coffeeify": "^0.6.0",
+    "connect": "^2.17.1",
+    "glob": "^3.2.9",
+    "gulp": "^3.6.2",
+    "gulp-changed": "^0.3.0",
+    "gulp-connect": "^2.0.5",
+    "gulp-jade": "^0.5.0",
+    "gulp-livereload": "^1.5.0",
+    "gulp-util": "^2.2.14",
+    "vinyl-source-stream": "^0.1.1",
+    "watchify": "^0.10.1"
+  },
+  "author": "Kevin Pruett",
+  "license": "ISC"
+}
